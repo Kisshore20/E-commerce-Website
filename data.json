@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@shopease.com",
+      "password": "$2b$08$Rt5RM2S0iweB3ZfyKErA7uBEkH/eerXLmxLiGhm5hHaXzfm06UWDG",
+      "role": "admin",
+      "createdAt": "2026-06-21T05:17:22.894Z"
+    },
+    {
+      "id": 2,
+      "name": "Kisshore N",
+      "email": "kisshore20@gmail.com",
+      "password": "$2b$08$zZ4Y.TF9ga/BEl8UObVkPuSKpIAyyi73rTuyZwvQZcwgQYF9cfEsC",
+      "role": "user",
+      "createdAt": "2026-06-21T06:15:53.340Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "description": "Over-ear Bluetooth headphones with noise cancellation and 20hr battery life.",
+      "price": 1999,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "stock": 25,
+      "createdAt": "2026-06-21T05:17:22.847Z"
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "description": "Fitness tracker with heart-rate monitor, step counter and notifications.",
+      "price": 2999,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "stock": 14,
+      "createdAt": "2026-06-21T05:17:22.847Z"
+    },
+    {
+      "id": 3,
+      "name": "Cotton T-Shirt",
+      "description": "Soft 100% cotton round-neck t-shirt, available in multiple colors.",
+      "price": 399,
+      "category": "Clothing",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      "stock": 50,
+      "createdAt": "2026-06-21T05:17:22.847Z"
+    },
+    {
+      "id": 4,
+      "name": "Running Shoes",
+      "description": "Lightweight running shoes with cushioned sole for everyday training.",
+      "price": 1499,
+      "category": "Footwear",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "stock": 30,
+      "createdAt": "2026-06-21T05:17:22.847Z"
+    },
+    {
+      "id": 5,
+      "name": "Backpack",
+      "description": "Water-resistant 30L backpack with laptop compartment, great for college.",
+      "price": 899,
+      "category": "Accessories",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+      "stock": 20,
+      "createdAt": "2026-06-21T05:17:22.847Z"
+    },
+    {
+      "id": 6,
+      "name": "Coffee Mug",
+      "description": "Ceramic 350ml mug, microwave safe, fun print design.",
+      "price": 199,
+      "category": "Home",
+      "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400",
+      "stock": 60,
+      "createdAt": "2026-06-21T05:17:22.847Z"
+    },
+    {
+      "id": 7,
+      "name": "Notebook Set (Pack of 3)",
+      "description": "A5 ruled notebooks, 100 pages each, perfect for class notes.",
+      "price": 249,
+      "category": "Stationery",
+      "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400",
+      "stock": 40,
+      "createdAt": "2026-06-21T05:17:22.847Z"
+    },
+    {
+      "id": 8,
+      "name": "Bluetooth Speaker",
+      "description": "Portable speaker with deep bass and 10hr playtime, IPX5 splash-proof.",
+      "price": 1299,
+      "category": "Electronics",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400",
+      "stock": 18,
+      "createdAt": "2026-06-21T05:17:22.847Z"
+    },
+    {
+      "id": 9,
+      "name": "Cotton Shirt",
+      "description": "",
+      "price": 500,
+      "category": "Clothing",
+      "image": "https://images.unsplash.com/photo-1602810316693-3667c854239a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "stock": 15,
+      "createdAt": "2026-06-21T06:11:37.459Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "userName": "Kisshore N",
+      "items": [
+        {
+          "productId": 2,
+          "name": "Smart Watch",
+          "price": 2999,
+          "qty": 1
+        }
+      ],
+      "total": 2999,
+      "address": "abc,yyy,zzz",
+      "status": "Delivered",
+      "createdAt": "2026-06-21T06:16:20.640Z"
+    }
+  ],
+  "order_items": [],
+  "_seq": {
+    "users": 3,
+    "products": 10,
+    "orders": 2,
+    "order_items": 1
+  }
+}
